@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* ------------------------------------- COLOUR */
+
+.bg-color-name-title {
+    background-color: #cd5c5c;
+}
+
+.ui-menu-colour-home {
+    background-color: #3d3c3a;
+}
+
+.ui-menu-colour-resume {
+    background-color: #616d7e;
+}
+
+.ui-menu-colour-contact {
+    background-color: #89c35c;
+}
+
+.ui-menu-colour-download {
+    background-color: #c8b560;
+}
+
+/* ------------------------------------- special headings/text/general */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+.inline-block{
+    display: inline-block;
+}
+
+/* ------------------------------------- heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+    
+#nav {
+    margin: 0;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff
+}
+
+.title {
+    font-family: "roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+
+.logo {
+    background: url("../images/jack.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    height: 120px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    letter-spacing: 2px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* ------------------------------------- hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------- footer */
+
+footer{
+    background-color: #CD853F;
+    min-height: 120px;
+    color: #fafafa;
+    margin: 0;
+}
+
